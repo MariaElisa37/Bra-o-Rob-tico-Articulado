@@ -112,11 +112,12 @@ braco-robotico/
 ### Braço robótico
 ![Braço robótico montado e já em esposição na banca](image.png)
 ### Circuito eletrônico
-![Circuito eletrico do projeto](image-1.jpeg)
+![Circuito eletrico do projeto](image-6.png)
 ### Simulação
-![Projeto no Tinkercad](image-2.png)
+![Projeto no Tinkercad](image-4.jpeg)
 ### Banca da feira
 ![Projeto montado na feira](image-3.png)
+![Equipe](image-4.png)
 
 ## 🛠️ Melhorias futuras
 
