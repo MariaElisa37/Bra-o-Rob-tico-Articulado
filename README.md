@@ -5,7 +5,6 @@
 
 >Projeto de braço robótico articulado desenvolvido com Arduino Uno, servo motores e potenciômetros. Usando uma estrutura de MDF. Projeto desenvolvido para uma feira de tecnologia escolar.
 
-
 ## 📌 Sobre o projeto
 
 O **Braço Robótico Articulado** é um projeto desenvolvido com o objetivo de construir um mecanismo capaz de realizar movimentos articulados e manipular pequenos objetos.
@@ -34,8 +33,6 @@ O braço robótico possui quatro articulações controladas individualmente:
 
 O controle é realizado por meio de potenciometros que realizam o movimento dos braços por meio da rotação de seu eixo.
 
----
-
 ## 🧰 Materiais utilizados
 
 | Quantidade | Componente | Descrição |
@@ -49,16 +46,12 @@ O controle é realizado por meio de potenciometros que realizam o movimento dos 
 | 1 | Fonte externa 5 V | Alimentação dos servomotores |
 | 4 | Potenciômetros  | [Comando de movimento] |
 
-
-
 ## 💻 Tecnologias utilizadas
 
 - **Arduino IDE:** desenvolvimento e envio do código.
 - **C++:** linguagem utilizada na programação.
 - **Arduino Uno R3:** plataforma de controle.
 - **Tinkercad Circuits:** simulação e testes do circuito.
-
-
 
 ## 🔌 Esquema de conexões
 
@@ -74,38 +67,15 @@ O controle é realizado por meio de potenciometros que realizam o movimento dos 
 **Observação:** na montagem física, os servomotores devem utilizar uma fonte externa adequada, com GND em comum com o Arduino.
 
 
-
-## 📂 Estrutura do repositório
-
-```text
-braco-robotico/
-│
-├── README.md
-├── codigo/
-│   └── braco_robotico.ino
-│
-├── imagens/
-│   ├── braco_montado.jpg
-│   ├── circuito.jpg
-│   └── simulacao.jpg
-│
-└── documentacao/
-    └── detalhes_tecnicos.md
-```
-
-
 ## 🚀 Como executar
 
 1. Instale a [Arduino IDE]
 2. Conecte o Arduino Uno ao computador.
-3. Abra o arquivo `braco_robotico.ino`.
 4. Selecione a placa Arduino Uno.
 5. Selecione a porta COM correspondente.
 6. Envie o código para o Arduino.
 7. Abra o Monitor Serial e configure a movimentação dos servos.
 8. Envie os comandos para movimentar o braço.
-
-
 
 ## 📸 Galeria do projeto
 
@@ -119,8 +89,6 @@ braco-robotico/
 ![Projeto montado na feira](image-3.png)
 ### Equipe
 ![Equipe](image-4.png)
-
-
 
 ## 🛠️ Melhorias futuras
 
@@ -142,12 +110,6 @@ braco-robotico/
 | [Wellison_Kaua] | [Participou na montagem do braço robótico] |
 | [Giovanna] | [Documentação tecnica] |
 | [Maria_Elisa_Brandão] | [Termino da montagem do braço / Configuração do codigo C++ / Montagem do circuito / Testes de interação ] |
-
-
-
-## 📄 Licença
-
-Este projeto está sob a licença [MIT](LICENSE).
 
 ## 📚 Créditos e referências
 
