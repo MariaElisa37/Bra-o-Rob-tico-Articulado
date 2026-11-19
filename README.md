@@ -1,30 +1,27 @@
-# Braco-Robotico-Articulado
-Projeto de braço robótico articulado desenvolvido com Arduino Uno, servo motores e potenciômetros. Usando uma estrutura de MDF. Projeto desenvolvido para uma feira de tecnologia.
+#  Braço Robótico Articulado
 
-# 🤖 Braço Robótico Articulado
+>Projeto de braço robótico articulado desenvolvido com Arduino Uno, servo motores e potenciômetros. Usando uma estrutura de MDF. Projeto desenvolvido para uma feira de tecnologia escolar.
 
-> Projeto de robótica desenvolvido com Arduino Uno, servomotores e estrutura de MDF.
-
-![Status](https://img.shields.io/badge/Status-Em%20desenvolvimento-yellow)
+![Status](https://img.shields.io/badge/Status-%20concluido-yellow)
 ![Arduino](https://img.shields.io/badge/Arduino-Uno-00979D?logo=arduino)
 ![Language](https://img.shields.io/badge/Linguagem-C%2B%2B-blue)
-![License](https://img.shields.io/badge/Licença-MIT-green)
+![Equipe](https://img.shields.io/badge/Equipe-C%2B%2B-red)
 
----
 
 ## 📌 Sobre o projeto
 
 O **Braço Robótico Articulado** é um projeto desenvolvido com o objetivo de construir um mecanismo capaz de realizar movimentos articulados e manipular pequenos objetos.
 
-O sistema utiliza um Arduino Uno para controlar quatro servomotores, responsáveis pelos movimentos da base, ombro, cotovelo e pinça.
+O sistema utiliza um Arduino Uno para controlar quatro servomotores e quatro potenciometos,responsáveis pelos movimentos da base, ombro, cotovelo e pinça.
 
 **Objetivo principal:**  
-[Descreva aqui o principal objetivo do projeto.]
+O projeto teve como obijetivo compreender como o maquinario industrial é utilisado no mercado.
+Compreender o funcionamento de uma placa arduino, o circuito em si e o codigo utilisado.
+Visar o trabalho em equipe, a coopereção, divisão de tarefas e boa comunicação.
 
 **Contexto de desenvolvimento:**  
-[Ex.: Feira de Ciências, feira de tecnologia, projeto escolar etc.]
+O projeto foi desesnvolvido para uma feira de tecnologia escolar, como projeto final de ano.
 
----
 
 ## ⚙️ Funcionamento
 
@@ -34,10 +31,10 @@ O braço robótico possui quatro articulações controladas individualmente:
 |---|---|
 | Base | Rotação para os lados |
 | Ombro | Movimento para cima e para baixo |
-| Cotovelo | Extensão e recolhimento do braço |
+| Cotovelo | Para frente e para trás |
 | Pinça | Abertura e fechamento |
 
-O controle é realizado por meio de comandos enviados pelo computador ao Arduino através da comunicação serial.
+O controle é realizado por meio de potenciometros que realizam o movimento dos braços por meio da rotação de seu eixo.
 
 ---
 
@@ -49,22 +46,21 @@ O controle é realizado por meio de comandos enviados pelo computador ao Arduino
 | 4 | Servomotores SG90 | Movimentação das articulações |
 | 1 | Estrutura de MDF | Corpo do braço robótico |
 | 1 | Protoboard | Organização das conexões |
-| - | Jumpers | Conexões elétricas |
+| 31| Jumpers | Conexões elétricas |
 | 1 | Cabo USB | Comunicação com o computador |
 | 1 | Fonte externa 5 V | Alimentação dos servomotores |
-| - | Outros | [Adicione outros materiais] |
+| 4 | Potenciômetros  | [Comando de movimento] |
 
----
+
 
 ## 💻 Tecnologias utilizadas
 
 - **Arduino IDE:** desenvolvimento e envio do código.
-- **C/C++:** linguagem utilizada na programação.
+- **C++:** linguagem utilizada na programação.
 - **Arduino Uno R3:** plataforma de controle.
 - **Tinkercad Circuits:** simulação e testes do circuito.
-- **Comunicação Serial:** envio de comandos entre computador e Arduino.
 
----
+
 
 ## 🎮 Comandos de controle
 
@@ -89,16 +85,16 @@ Os comandos são enviados pelo Monitor Serial.
 
 | Componente | Pino do Arduino |
 |---|---|
-| Servo da base | D3 |
-| Servo do ombro | D5 |
-| Servo do cotovelo | D6 |
-| Servo da pinça | D9 |
+| Servo da base | A0 |
+| Servo do ombro | A1 |
+| Servo do cotovelo | A2 |
+| Servo da pinça | A3 |
 
-**Alimentação:** [Descreva como os componentes estão alimentados.]
+**Alimentação:** Os servos são alimentados por uma fonte externa de 5 V, foi utilizada uma fonte ATX de computador conectada na protobord do circuito.
 
 **Observação:** na montagem física, os servomotores devem utilizar uma fonte externa adequada, com GND em comum com o Arduino.
 
----
+
 
 ## 📂 Estrutura do repositório
 
@@ -118,59 +114,68 @@ braco-robotico/
     └── detalhes_tecnicos.md
 ```
 
----
 
 ## 🚀 Como executar
 
-1. Instale a [Arduino IDE](https://www.arduino.cc/en/software).
+1. Instale a [Arduino IDE]
 2. Conecte o Arduino Uno ao computador.
 3. Abra o arquivo `braco_robotico.ino`.
 4. Selecione a placa Arduino Uno.
 5. Selecione a porta COM correspondente.
 6. Envie o código para o Arduino.
-7. Abra o Monitor Serial e configure a velocidade para 9600 baud.
+7. Abra o Monitor Serial e configure a movimentação dos servos.
 8. Envie os comandos para movimentar o braço.
 
----
+
 
 ## 📸 Galeria do projeto
 
 ### Braço robótico
-[Adicione aqui uma imagem do projeto montado.]
-
+![Braço robótico montado e já em esposição na banca](image.png)
 ### Circuito eletrônico
-[Adicione aqui uma imagem das conexões.]
-
+![Circuito eletrico do projeto](image-1.png)
 ### Simulação
-[Adicione aqui uma imagem do Tinkercad.]
-
----
+![Projeto no Tinkercad](image-2.png)
+### Banca da feira
+![Projeto montado na feira](image-3.png)
 
 ## 🛠️ Melhorias futuras
 
 - [ ] Desenvolver uma interface gráfica de controle.
-- [ ] Implementar controle por potenciômetros.
+- [ ] Implementar controle por painel de controle.
 - [ ] Melhorar a precisão dos movimentos.
 - [ ] Desenvolver movimentos automáticos.
 - [ ] Aprimorar a estrutura mecânica.
 - [ ] Adicionar novas funcionalidades.
 
----
-
 ## 👥 Desenvolvedores
 
 | Nome | Responsabilidade |
 |---|---|
-| [Nome] | [Função no projeto] |
-| [Nome] | [Função no projeto] |
-| [Nome] | [Função no projeto] |
+| [Cauã_de_Souza] | [Ajuda financeira para peças do projeto / Documentação tecnica] |
+| [Daniel_Alves] | [Cartaz de decoração para banca] |
+| [Yuri] | [Apresentação ] |
+| [Kaelmy] | [Apresentação ] |
+| [Wellison_Kaua] | [Participou na montagem do braço robótico] |
+| [Giovanna] | [Documentação tecnica] |
+| [Maria_Elisa_Brandão] | [Termino da montagem do braço / Configuração do codigo C++ / Montagem do circuito / Testes de interação ] |
 
----
+
 
 ## 📄 Licença
 
 Este projeto está sob a licença [MIT](LICENSE).
 
----
+## 📚 Créditos e referências
+
+Este projeto foi desenvolvido com base em materiais disponibilizados pelo canal **Manual do Mundo**.
+
+- **Código-fonte original:** disponibilizado pelo canal Manual do Mundo.
+- **Circuito eletrônico original:** baseado no projeto disponibilizado pelo canal.
+- **Referência:** [(https://youtu.be/Ecw3kCo4AdQ?si=Eq94iU00HnrNNgRS)].
+
+O código e o circuito foram utilizados como referência para o desenvolvimento e a realização de adaptações neste projeto.
+
+As modificações, testes, montagem física e demais implementações realizadas estão descritas neste repositório.
 
 ⭐ Se você gostou do projeto, deixe uma estrela no repositório!
