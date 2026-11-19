@@ -1,11 +1,9 @@
 #  Braço Robótico Articulado
 
->Projeto de braço robótico articulado desenvolvido com Arduino Uno, servo motores e potenciômetros. Usando uma estrutura de MDF. Projeto desenvolvido para uma feira de tecnologia escolar.
+![Braço Robótico](circuito-1.jpeg)
 
-![Status](https://img.shields.io/badge/Status-%20concluido-yellow)
-![Arduino](https://img.shields.io/badge/Arduino-Uno-00979D?logo=arduino)
-![Language](https://img.shields.io/badge/Linguagem-C%2B%2B-blue)
-![Equipe](https://img.shields.io/badge/Equipe-C%2B%2B-red)
+
+>Projeto de braço robótico articulado desenvolvido com Arduino Uno, servo motores e potenciômetros. Usando uma estrutura de MDF. Projeto desenvolvido para uma feira de tecnologia escolar.
 
 
 ## 📌 Sobre o projeto
