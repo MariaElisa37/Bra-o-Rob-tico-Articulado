@@ -1,6 +1,6 @@
 #  Braço Robótico Articulado
 
-![Braço Robótico](circuito-1.jpeg)
+![Braço Robótico](Braço.jpeg)
 
 
 >Projeto de braço robótico articulado desenvolvido com Arduino Uno, servo motores e potenciômetros. Usando uma estrutura de MDF. Projeto desenvolvido para uma feira de tecnologia escolar.
@@ -110,7 +110,7 @@ braco-robotico/
 ## 📸 Galeria do projeto
 
 ### Braço robótico
-![Braço robótico montado e já em esposição na banca](image.png)
+![Braço robótico montado e já em esposição na banca](Braço.png)
 ### Circuito eletrônico
 ![Circuito eletrico do projeto](image-1.png)
 ### Simulação
