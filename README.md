@@ -80,7 +80,7 @@ O controle é realizado por meio de potenciometros que realizam o movimento dos 
 ## 📸 Galeria do projeto
 
 ### Braço robótico
-![Braço robótico montado e já em esposição na banca](Braço.png)
+![Braço robótico montado e já em esposição na banca](Braço.jpeg)
 ### Circuito eletrônico
 ![Circuito eletrico do projeto](image-1.png)
 ### Simulação
