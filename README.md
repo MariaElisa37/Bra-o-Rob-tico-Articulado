@@ -60,25 +60,6 @@ O controle é realizado por meio de potenciometros que realizam o movimento dos 
 
 
 
-## 🎮 Comandos de controle
-
-Os comandos são enviados pelo Monitor Serial.
-
-| Tecla | Ação |
-|---|---|
-| A | Base para a esquerda |
-| D | Base para a direita |
-| W | Ombro para cima |
-| S | Ombro para baixo |
-| R | Cotovelo para cima |
-| F | Cotovelo para baixo |
-| O | Abrir pinça |
-| P | Fechar pinça |
-
-*Os comandos podem ser modificados conforme a programação.*
-
----
-
 ## 🔌 Esquema de conexões
 
 | Componente | Pino do Arduino |
@@ -131,7 +112,7 @@ braco-robotico/
 ### Braço robótico
 ![Braço robótico montado e já em esposição na banca](image.png)
 ### Circuito eletrônico
-![Circuito eletrico do projeto](image-1.png)
+![Circuito eletrico do projeto](image-1.jpeg)
 ### Simulação
 ![Projeto no Tinkercad](image-2.png)
 ### Banca da feira
