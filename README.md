@@ -122,4 +122,3 @@ O código e o circuito foram utilizados como referência para o desenvolvimento 
 
 As modificações, testes, montagem física e demais implementações realizadas estão descritas neste repositório.
 
-⭐ Se você gostou do projeto, deixe uma estrela no repositório!
