@@ -16,7 +16,7 @@ Compreender o funcionamento de uma placa arduino, o circuito em si e o codigo ut
 Visar o trabalho em equipe, a coopereção, divisão de tarefas e boa comunicação.
 
 **Contexto de desenvolvimento:**  
-O projeto foi desesnvolvido para uma feira de tecnologia escolar, como projeto final de ano.
+O projeto foi desenvolvido como trabalho de conclusão do ano letivo, com a finalidade de ser apresentado em uma feira de tecnologia escolar.
 
 
 ## ⚙️ Funcionamento
@@ -54,6 +54,7 @@ O controle é realizado por meio de potenciometros que realizam o movimento dos 
 
 ## 🔌 Esquema de conexões
 
+### Potenciometros
 | Componente | Pino do Arduino |
 |---|---|
 | Servo da base | A0 |
@@ -61,14 +62,23 @@ O controle é realizado por meio de potenciometros que realizam o movimento dos 
 | Servo do cotovelo | A2 |
 | Servo da pinça | A3 |
 
-**Alimentação:** Os servos são alimentados por uma fonte externa de 5 V, foi utilizada uma fonte ATX de computador conectada na protobord do circuito.
 
-**Observação:** na montagem física, os servomotores devem utilizar uma fonte externa adequada, com GND em comum com o Arduino.
+### Servo Motores
+| Componente | Pino do Arduino |
+|---|---|
+| Servo da base | 2 |
+| Servo do ombro | 3 |
+| Servo do cotovelo | 4 |
+| Servo da pinça | 5 |
+
+**Alimentação:** os servomotores são alimentados por uma fonte externa de 5 V. Durante a montagem física, foi utilizada uma fonte ATX de computador, conectada à protoboard para distribuir a alimentação aos componentes.
+
+**Observação:** os servomotores devem utilizar uma fonte externa com capacidade de corrente adequada. Além disso, o GND da fonte externa deve estar conectado ao GND do Arduino, garantindo uma referência elétrica comum entre os componentes.
 
 
 ## 🚀 Como executar
 
-1. Instale a [Arduino IDE]
+1. Instale a Arduino IDE.
 2. Conecte o Arduino Uno ao computador.
 4. Selecione a placa Arduino Uno.
 5. Selecione a porta COM correspondente.
@@ -102,13 +112,13 @@ O controle é realizado por meio de potenciometros que realizam o movimento dos 
 
 | Nome | Responsabilidade |
 |---|---|
-| [Cauã_de_Souza] | [Ajuda financeira para peças do projeto / Documentação tecnica] |
-| [Daniel_Alves] | [Cartaz de decoração para banca] |
-| [Yuri] | [Apresentação ] |
-| [Kaelmy] | [Apresentação ] |
-| [Wellison_Kaua] | [Participou na montagem do braço robótico] |
-| [Giovanna] | [Documentação tecnica] |
-| [Maria_Elisa_Brandão] | [Termino da montagem do braço / Configuração do codigo C++ / Montagem do circuito / Testes de interação ] |
+| Cauã_de_Souza |Contribuição financeira para a aquisição dos componentes e documentação técnica.|
+| Daniel_Alves | Desenvolvimento do cartaz e decoração da banca. |
+| Yuri | Participação na apresentação do projeto. |
+| Kaelmy | Participação na apresentação do projeto. |
+| Wellison_Kaua | Participação na montagem do braço robótico. |
+| Giovanna |Elaboração da documentação técnica. |
+| Maria_Elisa_Brandão |Finalização da montagem do braço robótico, configuração do código em C++, montagem do circuito eletrônico e realização dos testes de funcionamento.|
 
 ## 📚 Créditos e referências
 
