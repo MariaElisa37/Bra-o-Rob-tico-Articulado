@@ -8,7 +8,6 @@
 ## 📌 Sobre o projeto
 
 O **Braço Robótico Articulado** é um projeto desenvolvido com o objetivo de construir um mecanismo capaz de realizar movimentos articulados e manipular pequenos objetos.
-
 O sistema utiliza um Arduino Uno para controlar quatro servomotores e quatro potenciometos,responsáveis pelos movimentos da base, ombro, cotovelo e pinça.
 
 **Objetivo principal:**  
