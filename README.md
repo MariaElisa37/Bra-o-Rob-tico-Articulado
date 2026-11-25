@@ -44,7 +44,7 @@ O controle é realizado por meio de potenciometros que realizam o movimento dos 
 | 31| Jumpers | Conexões elétricas |
 | 1 | Cabo USB | Comunicação com o computador |
 | 1 | Fonte externa 5 V | Alimentação dos servomotores |
-| 4 | Potenciômetros  | [Comando de movimento] |
+| 4 | Potenciômetros  | Comando de movimento |
 
 ## 💻 Tecnologias utilizadas
 
