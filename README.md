@@ -57,11 +57,10 @@ O controle é realizado por meio de potenciometros que realizam o movimento dos 
 ### Potenciometros
 | Componente | Pino do Arduino |
 |---|---|
-| Servo da base | A0 |
-| Servo do ombro | A1 |
-| Servo do cotovelo | A2 |
-| Servo da pinça | A3 |
-
+| Potenciômetro da base | A0 |
+| Potenciômetro do ombro | A1 |
+| Potenciômetro do cotovelo | A2 |
+| Potenciômetro da pinça | A3 |
 
 ### Servo Motores
 | Componente | Pino do Arduino |
@@ -119,7 +118,7 @@ O controle é realizado por meio de potenciometros que realizam o movimento dos 
 | Wellison_Kaua | Participação na montagem do braço robótico. |
 | Giovanna |Elaboração da documentação técnica. |
 | Maria_Elisa_Brandão |Finalização da montagem do braço robótico, configuração do código em C++, montagem do circuito eletrônico e realização dos testes de funcionamento.|
-
+| Érika Alves Sardinha | Instrutora responsável pela orientação, acompanhamento e suporte durante o desenvolvimento do projeto. |
 ## 📚 Créditos e referências
 
 Este projeto foi desenvolvido com base em materiais disponibilizados pelo canal **Manual do Mundo**.
